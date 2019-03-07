@@ -1,5 +1,5 @@
 " Vim syntax file
-" Language: t
+" Language: todo
 
 if exists("b:current_syntax")
     finish
@@ -17,7 +17,7 @@ syntax match _warn '^\s*\[!\] .*$'
 highlight def link _done Identifier
 highlight def link _custom Ignore
 highlight def link _warn Error
-highlight def link _todo Type
+highlight def link _todo Normal
 highlight def link _other Comment
 
-let b:current_syntax = "t"
+let b:current_syntax = "todo"
