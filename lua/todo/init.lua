@@ -1,4 +1,4 @@
-local BRACKET = "%[.%] "
+local BRACKET = "[.*x] "
 
 local a = vim.api
 
@@ -30,7 +30,7 @@ function fold_namer()
 	local bracket_start, bracket_end = string.find(line, BRACKET)
 	local indent = a.nvim_call_function("indent", {linenum})
 	return string.rep(" ", indent)
-		.. string.sub(line, bracket_start, bracket_end - 2) .. "›]"
+		.. string.sub(line, bracket_start, bracket_end - 1) .. "›"
 		.. string.sub(line, bracket_end)
 		.. " (" .. (foldend - linenum) .. ")"
 end
