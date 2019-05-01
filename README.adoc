@@ -1,0 +1,16 @@
+= Vim Asciidoc Utils
+
+Utilities to help edit AsciiDoc files
+
+image::https://giant.gfycat.com/ParchedHonoredHyena.webm[GIF Demo]
+
+== Install
+
+With vim-plug
+----
+Plug 'aecepoglu/vim-asciidoc-utils'
+----
+
+== Keybindings
+- _in insert mode_ Press `Enter` to automatically add new list items
+- _in normal mode_ Press `Enter` to toggle TODOs or checklist items
