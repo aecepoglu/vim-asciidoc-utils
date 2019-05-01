@@ -2,7 +2,7 @@
 
 Utilities to help edit AsciiDoc files
 
-image::https://giant.gfycat.com/ParchedHonoredHyena.webm[GIF Demo]
+image::https://thumbs.gfycat.com/SlightWeightyCob-small.gif[GIF Demo]
 
 == Install
 
